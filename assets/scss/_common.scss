@@ -1,0 +1,54 @@
+html {
+  font-size: $font-size;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $font-main;
+  // TODO: убрать скролл, когда страница станет больше
+  overflow-y: scroll;
+}
+
+a {
+  color: $color-primary;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-accent;
+  }
+}
+
+h1 {
+  font-family: $font-header;
+  margin: (-$gap / 2) 0 ($gap * 3);
+
+  @include xs-min {
+    font-size: 3rem;
+  }
+
+  @include xs {
+    font-size: 2rem;
+  }
+
+  &::after {
+    position: absolute;
+    margin: 0.85em 0 0 $gap;
+    content: "";
+    border-bottom: 3px solid rgba(lighten($color-accent, 15%), 0.7);
+    width: 100%;
+  }
+}
+
+h2 {
+  // TODO: оформить
+}
+
+h3 {
+  // TODO: оформить
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
