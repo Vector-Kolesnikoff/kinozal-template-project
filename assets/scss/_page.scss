@@ -1,0 +1,22 @@
+.film-info {
+  font-size: 1.25em;
+
+  &__well {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    &-badge {
+      font-size: 0.8em;
+  
+      &:not(:last-child) {
+        margin-right: $gap;
+      }
+    }
+  }
+}
+
+.film-leave-comment {
+  .btn {
+    float: right;
+  }
+}

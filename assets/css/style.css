@@ -59,7 +59,6 @@ html {
 body {
   font-size: 1rem;
   font-family: "PT Sans", sans-serif;
-  overflow-y: scroll;
 }
 
 a {
@@ -243,6 +242,27 @@ section {
   background-color: #df8a13;
 }
 
+.film-info {
+  font-size: 1.25em;
+}
+
+.film-info__well {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.film-info__well-badge {
+  font-size: 0.8em;
+}
+
+.film-info__well-badge:not(:last-child) {
+  margin-right: 15px;
+}
+
+.film-leave-comment .btn {
+  float: right;
+}
+
 .left-sidebar {
   margin-bottom: 60px;
 }
@@ -342,7 +362,7 @@ section {
 
 .top-films-item a {
   display: block;
-  padding: 10px 40px 10px 25px;
+  padding: 10px 40px 10px 15px;
 }
 
 .top-films-item:first-child {
