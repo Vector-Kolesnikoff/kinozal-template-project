@@ -179,9 +179,9 @@ section {
 
 .new-films-item .thumbnail,
 .top-week-item .thumbnail {
-  -webkit-transition: background-color 0.25s ease;
-  -o-transition: background-color 0.25s ease;
-  transition: background-color 0.25s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .new-films-item .caption,
@@ -200,6 +200,47 @@ section {
 .top-week-item:hover .new-films-item__title,
 .top-week-item:hover .top-week-item__title {
   color: white;
+}
+
+.film-news-item h3 a {
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.film-news-item .thumbnail {
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.film-news-item .btn-warning {
+  float: right;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.film-news-item__image {
+  width: 100%;
+}
+
+.film-news-item__text {
+  text-align: justify;
+}
+
+.film-news-item:hover .thumbnail {
+  background-color: #f0ad4f;
+}
+
+.film-news-item:hover h3 a {
+  color: #df8a13;
+}
+
+.film-news-item:hover .btn-warning {
+  background-color: #df8a13;
 }
 
 .left-sidebar {
@@ -333,6 +374,9 @@ section {
   h2 {
     font-size: 2.5rem;
   }
+  h3 {
+    font-size: 1.5rem;
+  }
   .header-logo__title {
     letter-spacing: 0.33em;
     font-size: 3.5rem;
@@ -369,6 +413,9 @@ section {
   }
   h2 {
     font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
   }
   .header-logo__title {
     letter-spacing: 0.2em;

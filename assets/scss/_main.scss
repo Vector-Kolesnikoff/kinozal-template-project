@@ -32,7 +32,7 @@
     }
 
     .thumbnail {
-      transition: background-color 0.25s ease;
+      transition: background-color 0.3s ease;
     }
 
     .caption {
@@ -48,6 +48,54 @@
       .new-films-item__title,
       .top-week-item__title {
         color: lighten($color-gray, 15%);
+      }
+    }
+  }
+}
+
+.film-news {
+
+  &-item {
+
+    h3 {
+      a {
+        transition: color 0.3s ease;
+      }
+    }
+
+    .thumbnail {
+      transition: background-color 0.3s ease;
+      margin-bottom: $gap;
+    }
+
+    .btn-warning {
+      float: right;
+      transition: background-color 0.3s ease;
+      margin-bottom: $gap;
+    }
+
+    &__image {
+      width: 100%;
+    }
+
+    &__text {
+      text-align: justify;
+    }
+
+    &:hover {
+      
+      .thumbnail {
+      background-color: lighten($color-accent, 15%);
+      }
+
+      h3 {
+        a {
+        color: $color-accent;
+        }
+      }
+
+      .btn-warning {
+        background-color: $color-accent;
       }
     }
   }
