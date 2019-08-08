@@ -25,6 +25,15 @@
   background-color: #165690;
 }
 
+.navbar-header {
+  text-align: center;
+}
+
+.navbar-toggle {
+  float: none;
+  margin-right: 0;
+}
+
 .panel {
   border: none;
   margin-bottom: 30px;
@@ -50,6 +59,10 @@
 .input-lg,
 .input-group-lg > .form-control {
   font-size: 0.875rem;
+}
+
+.embed-responsive {
+  border-radius: 4px 4px 0 0;
 }
 
 html {
@@ -137,6 +150,14 @@ section {
 }
 
 .main {
+  margin-bottom: 60px;
+}
+
+.main .site-search {
+  margin: -15px 0 45px;
+}
+
+.main .user-login {
   margin-bottom: 60px;
 }
 

@@ -69,7 +69,7 @@ h2 {
   }
 }
 
-h3 { // strong
+h3 {
 
   @include xs-min {
     font-size: 1.5rem;

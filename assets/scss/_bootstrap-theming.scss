@@ -30,6 +30,15 @@
   }
 }
 
+.navbar-header {
+  text-align: center;
+}
+
+.navbar-toggle {
+  float: none;
+  margin-right: 0;
+}
+
 .navbar-left {
   @include sm {
     margin-bottom: 0;
@@ -81,4 +90,8 @@
   &-group-lg > .form-control {
     font-size: 0.875rem;
   }
+}
+
+.embed-responsive {
+  border-radius: 4px 4px 0 0;
 }
