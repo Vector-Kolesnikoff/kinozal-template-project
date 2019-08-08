@@ -1,0 +1,30 @@
+footer {
+  background-color: $color-dark;
+  padding-top: $gap * 3;
+  color: $color-light;
+
+  .footer__menu {
+
+    &-list{
+      list-style: none;
+      padding: 0;
+  
+      a {
+        color: darken($color-gray, 40%);
+
+        &:hover {
+          color: lighten($color-gray, 15%);
+        }
+      }
+    }
+  }
+
+  .footer__adress {
+    text-align: center;
+    margin: 20px 0;
+  
+    a {
+      color: $color-light;
+    }
+  }
+}

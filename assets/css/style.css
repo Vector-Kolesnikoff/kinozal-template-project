@@ -367,6 +367,34 @@ section {
   background-color: #232323;
 }
 
+footer {
+  background-color: #232323;
+  padding-top: 45px;
+  color: #ffffff;
+}
+
+footer .footer__menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer__menu-list a {
+  color: #777777;
+}
+
+footer .footer__menu-list a:hover {
+  color: white;
+}
+
+footer .footer__adress {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer .footer__adress a {
+  color: #ffffff;
+}
+
 @media (min-width: 576px) {
   h1 {
     font-size: 3rem;
